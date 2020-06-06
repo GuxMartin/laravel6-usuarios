@@ -2075,7 +2075,6 @@ __webpack_require__.r(__webpack_exports__);
 
       this.cargando = true;
       var notaNueva = this.nota;
-      var method = 'post';
       axios({
         method: this.nota.id ? 'put' : 'post',
         url: this.nota.id ? "/notas/".concat(this.nota.id) : '/notas',
@@ -66614,8 +66613,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vagrant/code/laravel6-usuarios/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/vagrant/code/laravel6-usuarios/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/vagrant/code/homestead/laravel6-usuarios/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/vagrant/code/homestead/laravel6-usuarios/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
